@@ -4,7 +4,7 @@
 
 header label {
   float: right;
-  font-size: 20px;
+  font-size: 15px;
   margin: 6px 0;
   cursor: pointer;
 }
@@ -46,16 +46,17 @@ header label {
     float: right;
     display: flex;
     background: #fff;
+    top: 10px;
   }
 
   .menu .menu-item {
-    font-size: 18px;
-    margin: 30px 5px;
+    font-size: 17.5px;
+    margin: 5px 5px;
     text-transform: uppercase;
-    width: max-content;
     color: #333;
     border-radius: 5px;
-    padding: 20px;
+    height: 30%;
+    padding: 15px;
   }
 
   .menu .menu-item:hover,

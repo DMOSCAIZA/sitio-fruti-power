@@ -32,8 +32,12 @@ header {
   margin: auto;
 }
 
-h1 {
-  float: left;
+.logotipo {
+  width: 25vh;
+  height: 7vh;
+  padding-left: 20px;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 header {
@@ -48,6 +52,7 @@ section {
 #nosotros {
   text-align: center;
 }
+
 
 
 /*MEDIA QUERYS*/
