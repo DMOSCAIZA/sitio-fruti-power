@@ -20,27 +20,19 @@
   font-size: 28px;
 }
 
-
 @media screen and (max-width:1200px) {
-  #banner img {
-    height: 100%;
-  }
+  #banner img { height: 100%; }
 }
 
+
 @media screen and (max-width:800px) {
-  #banner img {
-    height: 100%;
-  }
+  #banner img { height: 100%; }
 }
 
 @media screen and (max-width:500px) {
-  #banner img {
-    height: 100%;
-  }
+  #banner img { height: 100%; }
 }
 
 @media screen and (max-width:300px) {
-  #banner img {
-    height: 100%;
-  }
+  #banner img { height: 100%; }
 }

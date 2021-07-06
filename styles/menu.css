@@ -20,7 +20,7 @@ header label {
   transform: translateX(100%);
 }
 
-.menu a {
+.menu .menu-item {
   display: block;
   color: #fff;
   height: 65px;
@@ -29,7 +29,7 @@ header label {
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
 }
 
-.menu a:hover {
+.menu .menu-item .menu-opcion:hover {
   background: rgba(255, 255, 255, 0.5);
 }
 
@@ -37,3 +37,36 @@ header label {
   transform: translateX(0%);
 }
 
+@media (min-width: 1024px) {
+  .menu{
+    position: static;
+    width: auto;
+    height: auto;
+    transform: translateX(0%);
+    float: right;
+    display: flex;
+    background: #fff;
+  }
+
+  .menu .menu-item {
+    font-size: 18px;
+    margin: 10px 5px;
+    text-transform: uppercase;
+    width: max-content;
+    color: #333;
+    border-radius: 5px;
+    padding: 15px;
+  }
+
+  .menu .menu-item:hover,
+  .menu .menu-item_activate {
+    background-color: rgb(1, 133, 56);
+    transition: 0.5s;
+    color: #fff;
+  }
+
+  header label {
+    display: none;
+  }
+
+}
